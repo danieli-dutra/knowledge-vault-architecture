@@ -289,13 +289,29 @@ Entretanto, a metodologia é independente e pode ser utilizada em qualquer proje
 
 # Roadmap
 
-- [ ] Especificação v1.0
-- [ ] Templates
-- [ ] Implementação de Referência
+## Versão 1.0
+
+- [x] Especificação da Arquitetura
+- [x] Templates Canônicos
+- [x] Implementação de Referência
+- [ ] Revisão da Documentação
+- [ ] Lançamento Oficial da v1.0
+
+---
+
+## Versão 1.1
+
 - [ ] Guia de Migração
 - [ ] Guia de Integração com IA
 - [ ] Boas Práticas para MCP
+
+---
+
+## Futuro
+
 - [ ] Exemplos da Comunidade
+- [ ] Novas Implementações de Referência
+- [ ] Site Oficial
 
 ---
 
