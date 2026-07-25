@@ -1,4 +1,4 @@
-Knowledge Architecture
+# Knowledge Vault Architecture
 
 > An open specification for building structured, navigable and AI-ready project knowledge systems.
 
