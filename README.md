@@ -1,47 +1,100 @@
 # Knowledge Vault OS
 
-> An open specification for organizing project knowledge into a structured, navigable and AI-ready knowledge system.
+> An open specification for building structured, navigable and AI-ready project knowledge systems.
 
-Modern software projects accumulate knowledge everywhere.
+Knowledge Vault OS is a reusable Knowledge Operating System designed to organize software project knowledge into a structured, maintainable and searchable system.
 
-Requirements live in documents.
-Architecture is discussed in meetings.
-Product decisions happen in chat.
-Research is stored in random notes.
-Implementation lives in code.
+Instead of treating documentation as isolated files, Knowledge Vault OS treats knowledge as a first-class architectural asset shared by humans and AI agents throughout the entire software lifecycle.
 
-Over time, valuable knowledge becomes fragmented, difficult to discover and almost impossible to reuse.
+The objective is simple:
 
-Knowledge Vault OS provides an open specification for organizing that knowledge into a single source of truth designed for both humans and AI agents.
+> Build a single source of truth that remains organized, reusable and scalable over time.
 
 ---
 
 # Why?
 
-Traditional documentation answers:
+Modern software projects accumulate knowledge everywhere.
 
-> "Where is this document?"
+- Notion
+- Google Docs
+- GitHub Issues
+- Chat conversations
+- PDFs
+- Local notes
+- Meeting notes
+- Design files
+- Source code
 
-Knowledge Vault OS answers:
+As projects evolve, knowledge becomes fragmented, duplicated and eventually forgotten.
 
-> "Where does this knowledge belong?"
+Knowledge Vault OS proposes a different approach.
 
-Instead of organizing documentation by folders or files, it organizes knowledge by purpose.
+Instead of organizing documentation by files or folders, it organizes knowledge by responsibility.
 
-This makes information easier to discover, maintain and reuse throughout the entire product lifecycle.
+Every important decision, research document, feature, meeting and architectural artifact belongs to a predictable location inside the knowledge system.
+
+Knowledge becomes part of the project's architecture.
 
 ---
 
 # Core Principles
 
-- Single Source of Truth
-- Knowledge Before Implementation
-- Canonical Documentation
-- Decision Traceability
-- Human + AI Collaboration
-- Technology Agnostic
-- Structured Navigation
-- Continuous Evolution
+## Documentation is a Product
+
+Documentation should be designed, versioned and maintained with the same level of care as software.
+
+---
+
+## AI Assists, Not Replaces
+
+AI agents collaborate by organizing, maintaining and implementing knowledge.
+
+Humans remain responsible for vision, strategy, architecture and decision making.
+
+---
+
+## Knowledge Has a Lifecycle
+
+Ideas evolve.
+
+Research evolves.
+
+Architecture evolves.
+
+The Knowledge Vault preserves this evolution instead of continuously rewriting history.
+
+---
+
+## Single Source of Truth
+
+Every concept has one canonical location.
+
+Every other document references it instead of duplicating information.
+
+---
+
+## Structure Enables Automation
+
+Predictable structures allow humans and AI agents to navigate, retrieve and maintain project knowledge consistently.
+
+---
+
+## Technology Agnostic
+
+Knowledge Vault OS defines an architecture.
+
+It does not depend on any specific platform.
+
+The same specification can be implemented using:
+
+- Obsidian
+- Notion
+- VS Code
+- GitHub
+- Future knowledge platforms
+
+Obsidian is the current reference implementation, not a requirement.
 
 ---
 
@@ -53,22 +106,29 @@ knowledge-vault-os/
 ├── docs/
 │   └── specifications/
 │
+├── templates/
+│
 ├── vault/
+│
+├── implementation-guide.md
 │
 ├── LICENSE
 └── README.md
 ```
 
-The repository contains the specification and a reference implementation of the Knowledge Vault.
+The repository contains both the specification and a reference implementation.
 
 ---
 
-# Reference Vault Structure
+# Reference Implementation
+
+The repository includes a complete reference Knowledge Vault.
 
 ```
 vault/
 │
 ├── Home.md
+│
 ├── Index/
 │   ├── Knowledge Index.md
 │   ├── Work Index.md
@@ -96,28 +156,30 @@ vault/
 └── Templates/
 ```
 
-This structure serves as the reference implementation of the Knowledge Vault OS specification.
+This vault demonstrates how the specification can be applied in a real project.
 
 ---
 
-# Specification
+# Repository Specifications
 
-The specification defines where knowledge belongs.
+The Knowledge Vault OS specification is composed of independent documents.
 
-Instead of creating folders like:
+Each document has a single responsibility.
 
-```
-docs/
-notes/
-old-docs/
-misc/
-```
+| Document | Responsibility |
+|----------|----------------|
+| README.md | Repository overview |
+| knowledge-model.md | Knowledge entities and lifecycle |
+| architecture.md | Conceptual architecture |
+| conventions.md | Documentation standards |
+| template-spec.md | Canonical document templates |
+| vault-layout.md | Canonical directory structure |
+| vault-spec.md | Knowledge Vault specification |
+| security-model.md | Security principles |
+| agent-protocol.md | AI collaboration protocol |
+| implementation-guide.md | Reference implementation guide |
 
-Knowledge Vault OS organizes information into predictable knowledge domains.
-
-Every document has a single responsibility and a clear location.
-
-This makes navigation easier for both humans and AI agents.
+Together these documents define how a Knowledge Vault should be implemented.
 
 ---
 
@@ -133,32 +195,32 @@ git clone https://github.com/<your-user>/knowledge-vault-os.git
 
 ## 2. Open the Reference Vault
 
-Open the `vault/` folder directly with Obsidian.
+Open the `vault/` directory using Obsidian.
 
 ```
 knowledge-vault-os/
 └── vault/
 ```
 
-The `vault/` directory is the reference implementation of the specification.
+The vault is the reference implementation of the specification.
 
 ---
 
 ## 3. Start from Home
 
-The entry point of every vault is:
+Every Knowledge Vault starts from:
 
 ```
 Home.md
 ```
 
-From there you can navigate through the entire knowledge system using indexes and wikilinks.
+From there you can navigate the entire knowledge system using indexes and wikilinks.
 
 ---
 
-## 4. Create the canonical documents
+## 4. Build the project foundations
 
-Before documenting implementation details, define the project's foundations.
+Before documenting implementation details, create the project's canonical documents.
 
 Recommended order:
 
@@ -168,13 +230,13 @@ Recommended order:
 4. Features
 5. Decisions
 
-These documents become the project's single source of truth.
+These become the project's single source of truth.
 
 ---
 
 # How to Use
 
-Knowledge Vault OS is not a note-taking system.
+Knowledge Vault OS is **not** a note-taking system.
 
 It is a knowledge architecture.
 
@@ -182,21 +244,19 @@ Whenever new information appears, ask:
 
 > Where does this knowledge belong?
 
-Examples:
-
 | Information | Destination |
 |-------------|-------------|
 | Product purpose | Vision |
-| Business goals | Strategy |
-| System design | Architecture |
+| Business strategy | Strategy |
+| System architecture | Architecture |
 | Functional requirements | Features |
-| Technical decisions | Decisions |
-| User interviews | Research |
-| Meeting notes | Work / Meetings |
+| Architectural decisions | Decisions |
+| Research | Research |
+| Meetings | Work / Meetings |
 | Temporary ideas | Work / Drafts |
-| External standards | References |
+| External references | References |
 
-Following this principle keeps the knowledge base organized as the project grows.
+Following this principle keeps the knowledge base organized as the project evolves.
 
 ---
 
@@ -213,6 +273,15 @@ Benefits include:
 - Traceable architectural decisions
 - Reusable institutional knowledge
 - AI-friendly documentation
+- Consistent project evolution
+
+---
+
+# Reference Project
+
+The first complete implementation of Knowledge Vault OS was developed for the **Junta.ai** project.
+
+The methodology itself is independent of any specific project and may be adopted by any software team.
 
 ---
 
@@ -220,7 +289,7 @@ Benefits include:
 
 - [ ] Specification v1.0
 - [ ] Templates
-- [ ] Reference Vault
+- [ ] Reference Implementation
 - [ ] Migration Guide
 - [ ] AI Integration Guide
 - [ ] MCP Best Practices
@@ -234,7 +303,7 @@ Contributions are welcome.
 
 If you'd like to improve the specification, templates or documentation, feel free to open an Issue or Pull Request.
 
-Please read the specification before proposing structural changes.
+Please read the specifications before proposing structural changes.
 
 ---
 
