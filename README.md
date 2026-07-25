@@ -287,15 +287,24 @@ The methodology itself is independent of any specific project and may be adopted
 
 ---
 
-# Roadmap
+## Roadmap
 
-- [ ] Specification v1.0
-- [ ] Templates
-- [ ] Reference Implementation
+### v1.0
+- [x] Core Specification
+- [x] Canonical Templates
+- [x] Reference Implementation
+- [ ] Documentation Review
+- [ ] Public Release
+
+### v1.1
 - [ ] Migration Guide
 - [ ] AI Integration Guide
 - [ ] MCP Best Practices
+
+### Future
 - [ ] Community Examples
+- [ ] Additional Reference Implementations
+- [ ] Website
 
 ---
 
