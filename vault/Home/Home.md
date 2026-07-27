@@ -1,141 +1,163 @@
 ---
 title: Home
 owner: Dani Dutra
-status: 
-created: 
-updated: 
+status: Active
+created:
+updated:
 domains: []
 tags:
   - home
   - navigation
 ---
-🧠 Knowledge Vault Architecture
 
-A flexible knowledge management architecture designed for Obsidian and compatible with any Markdown-based note-taking system.
+# 🧠 Knowledge Vault Architecture
 
-Welcome
+> A flexible knowledge management architecture designed for **Obsidian** and compatible with any Markdown-based note-taking system.
 
-The Knowledge Vault Architecture is a project structure for organizing technical knowledge, product documentation, research, decisions, and work logs in a single, interconnected knowledge base.
+---
 
-It was designed to help individuals and teams build a long-term "second brain" for software projects, but it can also be adapted for personal knowledge management.
+## Welcome
 
-What is this?
+The **Knowledge Vault Architecture** provides a structured way to organize technical knowledge, product documentation, research, architectural decisions, and daily work in a single interconnected knowledge base.
 
-This repository provides:
+Originally designed for software projects, it can also be adapted for personal knowledge management.
 
-A folder structure for organizing knowledge.
-Ready-to-use Markdown templates.
-Recommended documentation workflows.
-Examples of architectural decisions (ADRs).
-Indexes to improve navigation.
-A graph-friendly organization for Obsidian.
+---
 
-It is not tied to any specific project.
+## What You'll Find
 
-Getting Started
-1. Clone or download this repository
+This repository includes:
 
-Use it as the starting point for your own project.
+- 📁 A folder structure for organizing knowledge
+- 📝 Ready-to-use Markdown templates
+- 🧭 Navigation indexes
+- 🏗️ Architectural Decision Record (ADR) examples
+- 🔗 A graph-friendly organization for Obsidian
 
-2. Rename the vault (optional)
+> **Note**
+>
+> This architecture is intentionally project-agnostic and can be adapted to any project or domain.
 
-For example:
+---
 
+# 🚀 Getting Started
+
+## 1. Clone or download this repository
+
+Use it as the starting point for your own knowledge vault.
+
+---
+
+## 2. Rename your vault (optional)
+
+Examples:
+
+```text
 Acme Brain
 Personal Brain
 My Startup Brain
-3. Open the folder in Obsidian
+```
 
-The vault is immediately usable.
+---
+
+## 3. Open it in Obsidian
 
 No additional configuration is required.
 
-4. Start documenting
+The vault is immediately usable.
 
-Use the templates inside:
+---
 
-Templates/
+## 4. Start documenting
 
-to create:
+Browse the **Templates** folder and create new notes using the available templates.
 
-ADRs
-Features
-Research
-Strategy
-Meetings
-References
-Tasks
-Recommended Workflow
+Available templates include:
 
-Whenever you create new knowledge:
+- ADR
+- Feature
+- Research
+- Strategy
+- Meeting
+- Reference
+- Task
 
-Choose Template
+---
+
+# 📖 Recommended Workflow
+
+```text
+Choose a Template
         ↓
-Create Document
+Create a Note
         ↓
-Move to Correct Folder
+Move it to the correct folder
         ↓
-Link Related Notes
+Link related notes
         ↓
-Update Index (optional)
-Folder Structure
-Home/
-Knowledge/
-References/
-Work/
-Archive/
-Templates/
+Update indexes (optional)
+```
 
-Each folder has a specific responsibility.
+---
 
-Folder	Purpose
-Home	Entry point
-Knowledge	Permanent project knowledge
-Work	Daily work logs
-References	External resources
-Archive	Deprecated content
-Templates	Reusable note templates
-Recommended Usage
+# 📂 Folder Structure
 
-This architecture works particularly well for:
+| Folder | Purpose |
+|---------|---------|
+| Home | Entry point |
+| Knowledge | Long-term project knowledge |
+| Work | Daily work logs |
+| References | External resources |
+| Archive | Deprecated content |
+| Templates | Reusable note templates |
 
-Software Engineering
-Product Management
-AI Projects
-Research
-Personal Knowledge Management
-Compatibility
+---
 
-Designed for:
+# 💡 Recommended Use Cases
 
-✅ Obsidian
+This architecture works especially well for:
 
-Also compatible with:
+- Software Engineering
+- Product Management
+- AI Projects
+- Research
+- Personal Knowledge Management
 
-VS Code
-Logseq
-Foam
-GitHub
-Any Markdown editor
-Philosophy
+---
+
+# ✅ Compatibility
+
+Designed primarily for:
+
+- Obsidian
+
+Also works with:
+
+- VS Code
+- Logseq
+- Foam
+- GitHub
+- Any Markdown editor
+
+---
+
+# Philosophy
 
 Knowledge should be:
 
-Organized
-Discoverable
-Connected
-Versioned
-Reusable
+- Organized
+- Discoverable
+- Connected
+- Versioned
+- Reusable
 
-The Knowledge Vault Architecture aims to make documentation evolve together with the project instead of becoming outdated.
-
-Next Steps
-
-Explore:
-
-[[Knowledge Index]]
-[[Templates Index]]
-[[References Index]]
-[[Work Index]]
+The goal of the Knowledge Vault Architecture is to ensure that documentation evolves together with the project instead of becoming obsolete.
 
 ---
+
+# 📚 Explore
+
+- [[Knowledge Index]]
+- [[Templates Index]]
+- [[References Index]]
+- [[Work Index]]
